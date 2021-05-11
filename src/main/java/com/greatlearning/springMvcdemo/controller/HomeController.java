@@ -8,6 +8,7 @@ public class HomeController {
 
 	@RequestMapping("/")
 	public String showPage() {
+		System.out.println("hello this is a github demo as well");
 		return "main-menu";
 	}
 }
