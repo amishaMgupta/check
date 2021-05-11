@@ -10,6 +10,7 @@ public class HomeController {
 	public String showPage() {
 		System.out.println("hello this is a github demo as well");
 		System.out.println("Do some local changes");
+		System.out.println("check for the commit done by someone else" );
 		return "main-menu";
 	}
 }
