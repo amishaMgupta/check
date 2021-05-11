@@ -9,6 +9,7 @@ public class HomeController {
 	@RequestMapping("/")
 	public String showPage() {
 		System.out.println("hello this is a github demo as well");
+		System.out.println("Do some local changes");
 		return "main-menu";
 	}
 }
